@@ -1,0 +1,22 @@
+//Membuat program Hadiah belanja
+program hadiahBelanja;
+Uses wincrt;
+var
+x:integer;
+begin
+write('masukkan harga=');read(x);
+if x<=49.999 then
+write ('maaf sampeyan dereng beruntung')
+else
+if x<=99.999 then
+write ('selamat sampeyan mendapatkan mie goreng')
+else
+if x<=149.999 then
+write ('selamat sampeyan mendapatkan gelas cantik')
+else
+if x<=199.999 then
+write ('selamat sampeyan mendapatkan piring cantik')
+else
+if x<=5000.000 then
+write ('selamat mendpatkan sampeyan payung cantik')
+end. 
