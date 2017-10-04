@@ -1,0 +1,10 @@
+//Membuat program GanjilGenap
+program Ganjilgenap;
+uses wincrt;
+var bil:integer;
+begin
+for bil:=6 to 16 do
+if bil mod 2=1 then
+write(bil,' ');
+readln;
+end.
