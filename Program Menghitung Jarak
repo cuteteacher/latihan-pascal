@@ -1,0 +1,18 @@
+//Membuat Program Menghitung Jarak
+Program Menghitung_Jarak;
+Uses WinCrt;
+var
+x1,x2,y1,y2:integer;
+d:real;
+begin
+Writeln('Program Menghitung Jarak Titik A dan B');
+Writeln('======================================');
+Writeln;
+Write('Masukan Nilai A (X1): ');readln(x1);
+Write('Masukan Nilai B (X2): ');readln(x2);
+Write('Masukan Nilai A (Y1): ');readln(y1);
+Write('Masukan Nilai B (Y2): ');readln(y2);
+d:=sqrt(sqr(x2-x1)+sqr(y2-y1));
+Writeln;
+Writeln('Jadi Jarak Titik A ke B Adalah: ',d:4:2);
+end.
