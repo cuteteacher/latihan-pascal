@@ -1,0 +1,12 @@
+//Membuat program grade
+Program nilai_mahasiswa;
+uses wincrt;
+Var
+Nilai : Real ;
+Grade : Char ;
+nama : string ;
+Begin
+write('NAMA ANDA: ',nama);
+read(nama);
+Write('NILAI YANG ANDA PEROLEH : ');
+Read(Nilai); 
