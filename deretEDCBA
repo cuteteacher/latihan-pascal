@@ -1,0 +1,10 @@
+//Membuat program deretEDCBA
+program deretEDCBA;
+uses wincrt;
+var i,batas:char;
+begin
+{write('masukkan integer positif=');
+readln(batas);}
+for i:='e' downto 'a' do
+write(i,' ');
+end. 
