@@ -1,0 +1,11 @@
+//Membuat program Deretan angka sampai 10
+
+program deratangka1sampai10;
+uses wincrt;
+var i,batas:integer;
+begin
+{write('Masukkan integer positif,=');
+readln(batas);}
+for i:=1 to 10 do
+write(i);
+end. 
