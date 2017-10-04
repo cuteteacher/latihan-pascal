@@ -1,0 +1,11 @@
+//Membuat Program deretABCDE
+
+program deretABCDE;
+uses wincrt;
+var i,batas:char;
+begin
+{write('masukkan integer positif=');
+readln(batas);}
+for i:='a' to 'e' do
+write(i,' ');
+end. 
