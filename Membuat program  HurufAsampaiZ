@@ -1,0 +1,9 @@
+// Membuat program  HurufAsampaiZ
+program hurufAsampaiZ;
+uses wincrt;
+var i,batas:char;
+begin
+write('Masukkan huruf a sampai z=');read(batas);
+for i:= 'a' to batas do
+write(i,' ');
+end.
