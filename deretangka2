@@ -1,0 +1,10 @@
+//Membuat program DeretAngka2
+program deretangka2;
+uses wincrt;
+var i,batas:integer;
+begin
+write('masukkan integer positif=');
+readln(batas);
+for i:=batas downto 1 do
+write(i,' ');
+end. 
