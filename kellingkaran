@@ -1,0 +1,13 @@
+//Membuat Program  keliling lingkaran
+
+program genap;
+uses wincrt;
+var
+ x : integer;
+ begin
+  write('masukkan sembarang angka =');read (x);
+  if x mod 2=0 then
+  write('genap')
+  else
+  write('ganjil')
+end. 
