@@ -1,0 +1,15 @@
+//Membuat Program Kontreversi Waktu
+Program Konversi_Waktu;
+Uses Wincrt;
+Var j,m,d,h:integer;
+begin
+Writeln('Program Konversi Waktu');
+Writeln('======================');
+Writeln;
+Write('Masukkan Jumlah Jam : ');readln(j);
+Write('Masukkan Jumlah Menit : ');readln(m);
+Write('Masukkan Jumlah Detik : ');readln(d);
+Writeln;
+h:=(j*3600)+(m*60)+d;
+Writeln('Jadi Hasil Konversi : ',h,' Detik');
+end.
