@@ -1,0 +1,331 @@
+//Membuat Program  keliling lingkaran
+
+program genap;
+uses wincrt;
+var
+x : integer;
+begin
+write('masukkan sembarang angka =');read (x);
+if x mod 2=0 then
+write('genap')
+else
+write('ganjil')
+end. 
+
+//Membuat program bilngankelipatan5
+
+program bilangankelipatan5;
+uses wincrt;
+var bil,batas:integer;
+begin
+write('Masukkan integer positif,=');
+readln(batas);
+for bil:=5 to batas do
+if bil mod 5=0 then
+write(bil,' ');
+end. 
+
+//Membuat Program deretABCDE
+
+program deretABCDE;
+uses wincrt;
+var i,batas:char;
+begin
+{write('masukkan integer positif=');
+readln(batas);}
+for i:='a' to 'e' do
+write(i,' ');
+end. 
+
+//Membuat program Deretan angka sampai 10
+
+program deratangka1sampai10;
+uses wincrt;
+var i,batas:integer;
+begin
+{write('Masukkan integer positif,=');
+readln(batas);}
+for i:=1 to 10 do
+write(i);
+end. 
+
+//Membuat program DeretAngka2
+program deretangka2;
+uses wincrt;
+var i,batas:integer;
+begin
+write('masukkan integer positif=');
+readln(batas);
+for i:=batas downto 1 do
+write(i,' ');
+end. 
+
+//Membuat program deretEDCBA
+program deretEDCBA;
+uses wincrt;
+var i,batas:char;
+begin
+{write('masukkan integer positif=');
+readln(batas);}
+for i:='e' downto 'a' do
+write(i,' ');
+end. 
+
+//Membuat program GanjilGenap
+program Ganjilgenap;
+uses wincrt;
+var bil:integer;
+begin
+for bil:=6 to 16 do
+if bil mod 2=1 then
+write(bil,' ');
+readln;
+end.
+ 
+//Membuat program grade
+Program nilai_mahasiswa;
+uses wincrt;
+Var
+Nilai : Real ;
+Grade : Char ;
+nama : string ;
+Begin
+write('NAMA ANDA: ',nama);
+read(nama);
+Write('NILAI YANG ANDA PEROLEH : ');
+Read(Nilai); 
+  
+  
+//Membuat program Hadiah belanja
+program hadiahBelanja;
+Uses wincrt;
+var
+x:integer;
+begin
+write('masukkan harga=');read(x);
+if x<=49.999 then
+write ('maaf sampeyan dereng beruntung')
+else
+if x<=99.999 then
+write ('selamat sampeyan mendapatkan mie goreng')
+else
+if x<=149.999 then
+write ('selamat sampeyan mendapatkan gelas cantik')
+else
+if x<=199.999 then
+write ('selamat sampeyan mendapatkan piring cantik')
+else
+if x<=5000.000 then
+write ('selamat mendpatkan sampeyan payung cantik')
+end. 
+
+//Membuat program binatang
+program binatang;
+uses wincrt;
+var baris,kolom:integer;
+begin
+clrscr;
+for baris:=1 to 8 do
+begin
+for kolom:=1 to baris do
+write('KUCING');
+writeln;
+end;
+readln;
+end.
+ 
+// Membuat program  HurufAsampaiZ
+program hurufAsampaiZ;
+uses wincrt;
+var i,batas:char;
+begin
+write('Masukkan huruf a sampai z=');read(batas);
+for i:= 'a' to batas do
+write(i,' ');
+end.
+
+
+
+//Membuat Program jenis bilangan bulat
+
+program jenis_bilangan_bulat;
+uses wincrt;
+var
+x : integer;
+begin
+write ('Masukkan sembarang angka=');read(x);
+if x >0 then
+write ('positif')
+else
+if x <0 then
+write('negatif')
+else
+write ('nol')
+end.
+
+
+
+
+
+
+
+//Membuat deretangka1sampai10
+
+program deratangka1sampai10;
+uses wincrt;
+var i,batas:integer;
+begin
+{write('Masukkan integer positif,=');
+readln(batas);}
+for i:=1 to 10 do
+write(i);
+end.
+
+
+
+
+
+
+
+
+//Membuat program deretABCDE
+program deretABCDE;
+uses wincrt;
+var i,batas:char;
+begin
+{write('masukkan integer positif=');
+readln(batas);}
+for i:='a' to 'e' do
+write(i,' ');
+end. 
+
+
+
+
+
+//Membuat Program bilanganKelipatan5
+
+program bilangankelipatan5;
+uses wincrt;
+var bil,batas:integer;
+begin
+write('Masukkan integer positif,=');
+readln(batas);
+for bil:=5 to batas do
+if bil mod 5=0 then
+write(bil,' ');
+end.
+
+
+
+
+
+
+
+
+
+//Membuat Program HurufAsampaiZ
+program hurufAsampaiZ;
+uses wincrt;
+var i,batas:char;
+begin
+write('Masukkan huruf a sampai z=');read(batas);
+for i:= 'a' to batas do
+write(i,' ');
+end.  
+
+
+
+
+
+
+
+
+//Membuat Program Menghitung Jarak
+Program Menghitung_Jarak;
+Uses WinCrt;
+var
+x1,x2,y1,y2:integer;
+d:real;
+begin
+Writeln('Program Menghitung Jarak Titik A dan B');
+Writeln('======================================');
+Writeln;
+Write('Masukan Nilai A (X1): ');readln(x1);
+Write('Masukan Nilai B (X2): ');readln(x2);
+Write('Masukan Nilai A (Y1): ');readln(y1);
+Write('Masukan Nilai B (Y2): ');readln(y2);
+d:=sqrt(sqr(x2-x1)+sqr(y2-y1));
+Writeln;
+Writeln('Jadi Jarak Titik A ke B Adalah: ',d:4:2);
+end.
+
+
+//Membuat Program Kontreversi Suhu
+Program Konversi_Suhu;
+Uses WinCrt;
+var f,c:real;
+begin
+Writeln('Program Konversi Fareinheit Ke Celcius');
+Writeln('======================================');
+Writeln;
+Write('Masukan Suhu dalam Farenheit: ');readln(f);
+c:=5/9*(f-32);
+Writeln;
+Writeln('Jadi Suhu Dalam Celcius Adalah: ',c:4:2);
+end.
+
+
+
+//Membuat Program Kontreversi Waktu
+Program Konversi_Waktu;
+Uses Wincrt;
+Var j,m,d,h:integer;
+begin
+Writeln('Program Konversi Waktu');
+Writeln('======================');
+Writeln;
+Write('Masukkan Jumlah Jam : ');readln(j);
+Write('Masukkan Jumlah Menit : ');readln(m);
+Write('Masukkan Jumlah Detik : ');readln(d);
+Writeln;
+h:=(j*3600)+(m*60)+d;
+Writeln('Jadi Hasil Konversi : ',h,' Detik');
+end.
+
+
+
+
+//Membuat Program Kontreversi Waktu1
+Program Konversi_Waktu1;
+Uses WinCrt;
+var j,m,d,dm,sisa,sisa1:integer;
+begin
+Writeln('Program Konversi Waktu 1');
+Writeln('========================');
+Writeln;
+Write('Masukkan Jumlah Detik : ');readln(dm);
+if (dm/3600)>0 then
+begin
+j:=dm div 3600;
+sisa:=dm-(j*3600);end
+else
+begin
+j:=0;
+sisa:=dm;
+end;
+if (sisa/60)>0 then
+begin
+m:=sisa div 60;
+sisa1:=sisa-(m*60);
+end
+else
+begin
+m:=0;
+sisa1:=sisa;
+end;
+d:=sisa1;
+Writeln;
+Writeln('Hasil => ',j,' jam ',m,' menit ',d,' detik');
+end. 
+
