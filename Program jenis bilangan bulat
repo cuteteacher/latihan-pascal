@@ -1,0 +1,16 @@
+//Membuat Program jenis bilangan bulat
+
+program jenis_bilangan_bulat;
+uses wincrt;
+var
+x : integer;
+begin
+write ('Masukkan sembarang angka=');read(x);
+if x >0 then
+write ('positif')
+else
+if x <0 then
+write('negatif')
+else
+write ('nol')
+end.
