@@ -1,0 +1,13 @@
+//Membuat Program Kontreversi Suhu
+Program Konversi_Suhu;
+Uses WinCrt;
+var f,c:real;
+begin
+Writeln('Program Konversi Fareinheit Ke Celcius');
+Writeln('======================================');
+Writeln;
+Write('Masukan Suhu dalam Farenheit: ');readln(f);
+c:=5/9*(f-32);
+Writeln;
+Writeln('Jadi Suhu Dalam Celcius Adalah: ',c:4:2);
+end.
