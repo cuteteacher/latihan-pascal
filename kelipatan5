@@ -1,0 +1,12 @@
+//Membuat program bilngankelipatan5
+
+program bilangankelipatan5;
+uses wincrt;
+var bil,batas:integer;
+begin
+write('Masukkan integer positif,=');
+readln(batas);
+for bil:=5 to batas do
+if bil mod 5=0 then
+write(bil,' ');
+end. 
