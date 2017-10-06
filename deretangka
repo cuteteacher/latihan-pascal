@@ -1,4 +1,5 @@
 //Membuat program Deretan angka sampai 10
+// saya mencoba saja 
 
 program deratangka1sampai10;
 uses wincrt;
@@ -8,4 +9,4 @@ begin
 readln(batas);}
 for i:=1 to 10 do
 write(i);
-end. 
+end.
