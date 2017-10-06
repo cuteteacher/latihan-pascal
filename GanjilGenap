@@ -1,4 +1,12 @@
 //Membuat program GanjilGenap
+
+
+//Membuat program GanjilGenap
+
+
+
+//zahid
+
 program Ganjilgenap;
 uses wincrt;
 var bil:integer;
